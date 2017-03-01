@@ -72,7 +72,8 @@ let INPUTS: {[name: string]: InputFeature} = {
   "xTimesY": {f: (x, y) => x * y, label: "X_1X_2"},
   "sinX": {f: (x, y) => Math.sin(x), label: "sin(X_1)"},
   "sinY": {f: (x, y) => Math.sin(y), label: "sin(X_2)"},
-  "radius": {f: (x, y) => Math.sqrt(x**2 + y**2), label: "radius"};
+  "radius": {f: (x, y) => Math.sqrt(x**2 + y**2), label: "radius"},
+};
 
 let HIDABLE_CONTROLS = [
   ["Show test data", "showTestData"],
